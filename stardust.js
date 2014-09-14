@@ -554,7 +554,7 @@ g.draw = function(){
 }
 g.drawText = function(ent, x, y){
     var R = Math.round;
-    
+    ctx.font = "14px Verdana";
     if (this.player.isElementScanOn) {
         var esx = x + ent.earthSize + 8;
         ctx.fillStyle = "#ccc";
